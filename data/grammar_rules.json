@@ -1,0 +1,385 @@
+{
+  "spelling": {
+    "recieve": "receive",
+    "beleive": "believe",
+    "acheive": "achieve",
+    "definately": "definitely",
+    "seperate": "separate",
+    "occured": "occurred",
+    "untill": "until",
+    "wich": "which",
+    "becuase": "because",
+    "becasue": "because",
+    "freind": "friend",
+    "freinds": "friends",
+    "tommorow": "tomorrow",
+    "tomorow": "tomorrow",
+    "goverment": "government",
+    "enviroment": "environment",
+    "begining": "beginning",
+    "wierd": "weird",
+    "alot": "a lot",
+    "realy": "really",
+    "beautifull": "beautiful",
+    "succesful": "successful",
+    "sucess": "success",
+    "neccessary": "necessary",
+    "necesary": "necessary",
+    "adress": "address",
+    "arguement": "argument",
+    "calender": "calendar",
+    "comming": "coming",
+    "writting": "writing",
+    "gratefull": "grateful",
+    "knowlege": "knowledge",
+    "langauge": "language",
+    "libary": "library",
+    "mispell": "misspell",
+    "oppurtunity": "opportunity",
+    "peice": "piece",
+    "persue": "pursue",
+    "prefered": "preferred",
+    "probaly": "probably",
+    "publically": "publicly",
+    "questionaire": "questionnaire",
+    "recomend": "recommend",
+    "relevent": "relevant",
+    "religous": "religious",
+    "sentance": "sentence",
+    "shedule": "schedule",
+    "studing": "studying",
+    "suprise": "surprise",
+    "teh": "the",
+    "thier": "their",
+    "truely": "truly",
+    "wensday": "Wednesday",
+    "whith": "with",
+    "grammer": "grammar",
+    "exersise": "exercise",
+    "intrested": "interested",
+    "finaly": "finally",
+    "basicly": "basically",
+    "busness": "business",
+    "collage": "college",
+    "dont": "don't",
+    "doesnt": "doesn't",
+    "didnt": "didn't",
+    "cant": "can't",
+    "isnt": "isn't",
+    "im": "I'm",
+    "ive": "I've",
+    "thats": "that's"
+  },
+  "phrase_rules": [
+    {
+      "wrong": "i is",
+      "right": "I am",
+      "rule": "With 'I' we use 'am'."
+    },
+    {
+      "wrong": "i are",
+      "right": "I am",
+      "rule": "With 'I' we use 'am'."
+    },
+    {
+      "wrong": "you is",
+      "right": "you are",
+      "rule": "With 'you' we use 'are'."
+    },
+    {
+      "wrong": "we is",
+      "right": "we are",
+      "rule": "With 'we' we use 'are'."
+    },
+    {
+      "wrong": "they is",
+      "right": "they are",
+      "rule": "With 'they' we use 'are'."
+    },
+    {
+      "wrong": "he are",
+      "right": "he is",
+      "rule": "With 'he' we use 'is'."
+    },
+    {
+      "wrong": "she are",
+      "right": "she is",
+      "rule": "With 'she' we use 'is'."
+    },
+    {
+      "wrong": "it are",
+      "right": "it is",
+      "rule": "With 'it' we use 'is'."
+    },
+    {
+      "wrong": "they was",
+      "right": "they were",
+      "rule": "Plural subjects take 'were'."
+    },
+    {
+      "wrong": "we was",
+      "right": "we were",
+      "rule": "Plural subjects take 'were'."
+    },
+    {
+      "wrong": "you was",
+      "right": "you were",
+      "rule": "With 'you' we use 'were'."
+    },
+    {
+      "wrong": "i has",
+      "right": "I have",
+      "rule": "With 'I' we use 'have'."
+    },
+    {
+      "wrong": "they has",
+      "right": "they have",
+      "rule": "Plural subjects take 'have'."
+    },
+    {
+      "wrong": "we has",
+      "right": "we have",
+      "rule": "Plural subjects take 'have'."
+    },
+    {
+      "wrong": "you has",
+      "right": "you have",
+      "rule": "With 'you' we use 'have'."
+    },
+    {
+      "wrong": "he don't",
+      "right": "he doesn't",
+      "rule": "With he/she/it we use 'doesn't'."
+    },
+    {
+      "wrong": "she don't",
+      "right": "she doesn't",
+      "rule": "With he/she/it we use 'doesn't'."
+    },
+    {
+      "wrong": "it don't",
+      "right": "it doesn't",
+      "rule": "With he/she/it we use 'doesn't'."
+    },
+    {
+      "wrong": "didn't went",
+      "right": "didn't go",
+      "rule": "After 'did/didn't' use the base form of the verb."
+    },
+    {
+      "wrong": "did not went",
+      "right": "did not go",
+      "rule": "After 'did/didn't' use the base form of the verb."
+    },
+    {
+      "wrong": "didn't came",
+      "right": "didn't come",
+      "rule": "After 'did/didn't' use the base form of the verb."
+    },
+    {
+      "wrong": "didn't saw",
+      "right": "didn't see",
+      "rule": "After 'did/didn't' use the base form of the verb."
+    },
+    {
+      "wrong": "didn't ate",
+      "right": "didn't eat",
+      "rule": "After 'did/didn't' use the base form of the verb."
+    },
+    {
+      "wrong": "can goes",
+      "right": "can go",
+      "rule": "After a modal verb (can, will, should) use the base verb."
+    },
+    {
+      "wrong": "will goes",
+      "right": "will go",
+      "rule": "After a modal verb (can, will, should) use the base verb."
+    },
+    {
+      "wrong": "should goes",
+      "right": "should go",
+      "rule": "After a modal verb (can, will, should) use the base verb."
+    },
+    {
+      "wrong": "more better",
+      "right": "better",
+      "rule": "'Better' is already a comparative; do not add 'more'."
+    },
+    {
+      "wrong": "more easier",
+      "right": "easier",
+      "rule": "'Easier' is already a comparative; do not add 'more'."
+    },
+    {
+      "wrong": "more bigger",
+      "right": "bigger",
+      "rule": "'Bigger' is already a comparative; do not add 'more'."
+    },
+    {
+      "wrong": "most best",
+      "right": "best",
+      "rule": "'Best' is already a superlative; do not add 'most'."
+    },
+    {
+      "wrong": "could of",
+      "right": "could have",
+      "rule": "The correct form is 'could have', not 'could of'."
+    },
+    {
+      "wrong": "should of",
+      "right": "should have",
+      "rule": "The correct form is 'should have', not 'should of'."
+    },
+    {
+      "wrong": "would of",
+      "right": "would have",
+      "rule": "The correct form is 'would have', not 'would of'."
+    },
+    {
+      "wrong": "discuss about",
+      "right": "discuss",
+      "rule": "'Discuss' does not need 'about'."
+    },
+    {
+      "wrong": "return back",
+      "right": "return",
+      "rule": "'Return' already means 'come back', so 'back' is extra."
+    },
+    {
+      "wrong": "repeat again",
+      "right": "repeat",
+      "rule": "'Repeat' already means 'do again', so 'again' is extra."
+    },
+    {
+      "wrong": "cope up with",
+      "right": "cope with",
+      "rule": "The correct phrase is 'cope with'."
+    },
+    {
+      "wrong": "i am agree",
+      "right": "I agree",
+      "rule": "'Agree' is a verb; we do not use 'am' before it."
+    },
+    {
+      "wrong": "one of my friend",
+      "right": "one of my friends",
+      "rule": "After 'one of', use a plural noun."
+    },
+    {
+      "wrong": "there is many",
+      "right": "there are many",
+      "rule": "'Many' is plural, so use 'there are'."
+    },
+    {
+      "wrong": "since two years",
+      "right": "for two years",
+      "rule": "Use 'for' with a period of time."
+    },
+    {
+      "wrong": "since three years",
+      "right": "for three years",
+      "rule": "Use 'for' with a period of time."
+    },
+    {
+      "wrong": "since two days",
+      "right": "for two days",
+      "rule": "Use 'for' with a period of time."
+    },
+    {
+      "wrong": "your welcome",
+      "right": "you're welcome",
+      "rule": "'You're' means 'you are'."
+    },
+    {
+      "wrong": "your right",
+      "right": "you're right",
+      "rule": "'You're' means 'you are'."
+    },
+    {
+      "wrong": "its raining",
+      "right": "it's raining",
+      "rule": "'It's' means 'it is'."
+    },
+    {
+      "wrong": "its a",
+      "right": "it's a",
+      "rule": "'It's' means 'it is'."
+    }
+  ],
+  "third_person_verbs": {
+    "go": "goes",
+    "do": "does",
+    "have": "has",
+    "play": "plays",
+    "eat": "eats",
+    "like": "likes",
+    "want": "wants",
+    "come": "comes",
+    "work": "works",
+    "study": "studies",
+    "watch": "watches",
+    "read": "reads",
+    "write": "writes",
+    "live": "lives",
+    "know": "knows",
+    "make": "makes",
+    "take": "takes",
+    "need": "needs",
+    "love": "loves",
+    "speak": "speaks",
+    "teach": "teaches",
+    "drink": "drinks",
+    "sleep": "sleeps",
+    "run": "runs",
+    "try": "tries"
+  },
+  "helping_words": [
+    "will",
+    "would",
+    "can",
+    "could",
+    "shall",
+    "should",
+    "may",
+    "might",
+    "must",
+    "do",
+    "does",
+    "did",
+    "let",
+    "make",
+    "made",
+    "help",
+    "helped",
+    "see",
+    "saw",
+    "watch",
+    "hear",
+    "heard",
+    "to",
+    "not"
+  ],
+  "silent_h_words": [
+    "hour",
+    "hours",
+    "honest",
+    "honour",
+    "honor",
+    "heir"
+  ],
+  "you_sound_words": [
+    "university",
+    "uniform",
+    "unit",
+    "union",
+    "unique",
+    "user",
+    "useful",
+    "usual",
+    "european",
+    "one",
+    "once",
+    "euro"
+  ]
+}

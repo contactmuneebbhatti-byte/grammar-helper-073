@@ -1,0 +1,445 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "salam",
+        "assalam o alaikum",
+        "aoa",
+        "good morning",
+        "good evening",
+        "hello there",
+        "hi bot",
+        "how are you",
+        "hello how are you",
+        "hi how are you"
+      ],
+      "responses": [
+        "Hello! I am doing great. I am your English Grammar Helper. Ask me a grammar question, check a sentence, or try the quiz.",
+        "Wa Alaikum Assalam! How can I help you with English grammar today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "allah hafiz",
+        "khuda hafiz",
+        "see you",
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "thank you so much",
+        "ok bye"
+      ],
+      "responses": [
+        "You are welcome! Keep practising and your English will keep improving. Allah Hafiz!",
+        "Goodbye! Come back anytime you need help with grammar."
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what is your name",
+        "what can you do",
+        "how can you help me",
+        "help"
+      ],
+      "responses": [
+        "I am an English Grammar Helper chatbot. I can (1) answer grammar questions, (2) check your sentences for common mistakes, and (3) test you with a grammar quiz. Choose a mode from the sidebar."
+      ]
+    },
+    {
+      "tag": "quiz_request",
+      "patterns": [
+        "start quiz",
+        "i want a quiz",
+        "test me",
+        "ask me questions",
+        "give me a quiz",
+        "grammar quiz"
+      ],
+      "responses": [
+        "Great! Select **Grammar Quiz** mode from the sidebar and then type **start**."
+      ]
+    },
+    {
+      "tag": "noun",
+      "patterns": [
+        "what is a noun",
+        "define noun",
+        "noun meaning",
+        "explain noun",
+        "types of noun",
+        "what are nouns",
+        "types of nouns",
+        "kinds of nouns",
+        "what are the types of nouns"
+      ],
+      "responses": [
+        "A **noun** is the name of a person, place, thing or idea.\n\nExamples: *Ali*, *Lahore*, *book*, *happiness*.\n\nMain types: proper noun (Karachi), common noun (city), collective noun (team), abstract noun (honesty)."
+      ]
+    },
+    {
+      "tag": "pronoun",
+      "patterns": [
+        "what is a pronoun",
+        "define pronoun",
+        "explain pronoun",
+        "types of pronoun",
+        "what are pronouns",
+        "types of pronouns",
+        "kinds of pronouns"
+      ],
+      "responses": [
+        "A **pronoun** is used in place of a noun so we do not repeat it.\n\nExample: *Sara is tired. **She** wants to sleep.*\n\nCommon pronouns: I, you, he, she, it, we, they, me, him, her, us, them."
+      ]
+    },
+    {
+      "tag": "verb",
+      "patterns": [
+        "what is a verb",
+        "define verb",
+        "explain verb",
+        "types of verb",
+        "what are verbs",
+        "helping verb"
+      ],
+      "responses": [
+        "A **verb** shows an action or a state of being.\n\nAction verbs: *run, write, eat*.\nState verbs: *is, seem, know*.\nHelping verbs (is, am, are, has, have, will) help the main verb: *She **is** writing.*"
+      ]
+    },
+    {
+      "tag": "adjective",
+      "patterns": [
+        "what is an adjective",
+        "define adjective",
+        "explain adjective",
+        "adjective examples",
+        "what are adjectives"
+      ],
+      "responses": [
+        "An **adjective** describes a noun.\n\nExamples: *a **tall** boy*, *a **red** car*, *an **easy** test*.\n\nComparison: tall → taller → tallest."
+      ]
+    },
+    {
+      "tag": "adverb",
+      "patterns": [
+        "what is an adverb",
+        "define adverb",
+        "explain adverb",
+        "adverb examples",
+        "what are adverbs"
+      ],
+      "responses": [
+        "An **adverb** describes a verb, an adjective or another adverb. It tells *how, when, where* or *how much*.\n\nExamples: *She speaks **slowly**.* / *He came **yesterday**.* / *It is **very** hot.*\n\nMany adverbs end in **-ly**."
+      ]
+    },
+    {
+      "tag": "preposition",
+      "patterns": [
+        "what is a preposition",
+        "define preposition",
+        "explain preposition",
+        "in on at difference",
+        "when to use in on at"
+      ],
+      "responses": [
+        "A **preposition** shows the relation of a noun with other words (place, time, direction).\n\nTime rule:\n- **at** for exact time: *at 5 pm*\n- **on** for days and dates: *on Monday*\n- **in** for months, years, seasons: *in January, in 2025*"
+      ]
+    },
+    {
+      "tag": "conjunction",
+      "patterns": [
+        "what is a conjunction",
+        "define conjunction",
+        "explain conjunction",
+        "conjunction examples",
+        "joining words"
+      ],
+      "responses": [
+        "A **conjunction** joins words or sentences.\n\nExamples: **and, but, or, because, so, although**.\n\n*I was tired, **but** I finished my work.*"
+      ]
+    },
+    {
+      "tag": "article",
+      "patterns": [
+        "what are articles",
+        "explain articles",
+        "a an the",
+        "use of the",
+        "when to use the",
+        "definite and indefinite article"
+      ],
+      "responses": [
+        "English has three **articles**: *a, an, the*.\n\n- **a / an** = any one (indefinite): *a pen, an egg*\n- **the** = a specific one (definite): *the pen on my table*\n\nUse **the** for unique things too: *the sun, the moon*."
+      ]
+    },
+    {
+      "tag": "a_vs_an",
+      "patterns": [
+        "a or an",
+        "difference between a and an",
+        "when to use an",
+        "when to use a",
+        "a vs an",
+        "a university or an university",
+        "an hour or a hour"
+      ],
+      "responses": [
+        "The rule depends on the **sound**, not the letter.\n\n- **an** before a vowel sound: *an apple, an hour* (h is silent)\n- **a** before a consonant sound: *a book, a university* (sounds like 'you')"
+      ]
+    },
+    {
+      "tag": "present_simple",
+      "patterns": [
+        "what is present simple",
+        "present indefinite tense",
+        "simple present tense",
+        "explain present simple",
+        "present simple structure"
+      ],
+      "responses": [
+        "**Present Simple** is used for habits, facts and routines.\n\nStructure: Subject + verb (add **s/es** with he, she, it)\n\n*I play cricket.* / *She **plays** cricket.* / *Water **boils** at 100°C.*\n\nNegative: *She **does not** play.*"
+      ]
+    },
+    {
+      "tag": "present_continuous",
+      "patterns": [
+        "what is present continuous",
+        "present progressive tense",
+        "explain present continuous",
+        "present continuous structure"
+      ],
+      "responses": [
+        "**Present Continuous** is used for actions happening now.\n\nStructure: Subject + **am/is/are** + verb**-ing**\n\n*I **am reading**.* / *They **are playing** right now.*"
+      ]
+    },
+    {
+      "tag": "present_perfect",
+      "patterns": [
+        "what is present perfect",
+        "present perfect tense",
+        "when do i use present perfect tense",
+        "explain present perfect",
+        "present perfect structure"
+      ],
+      "responses": [
+        "**Present Perfect** connects the past with now. Use it for an action that happened at an unknown time, or that started in the past and still continues.\n\nStructure: Subject + **has/have** + past participle (3rd form)\n\n*I **have finished** my work.* / *She **has lived** here for two years.*\n\nDo not use it with a fixed past time: ❌ *I have seen him yesterday.*"
+      ]
+    },
+    {
+      "tag": "past_simple",
+      "patterns": [
+        "what is past simple",
+        "past indefinite tense",
+        "simple past tense",
+        "explain past simple",
+        "past simple structure"
+      ],
+      "responses": [
+        "**Past Simple** is used for a finished action at a known time in the past.\n\nStructure: Subject + past form (2nd form)\n\n*I **went** to Lahore yesterday.*\n\nNegative: *I **did not go**.* (after *did*, use the base verb)"
+      ]
+    },
+    {
+      "tag": "past_continuous",
+      "patterns": [
+        "what is past continuous",
+        "past progressive tense",
+        "explain past continuous",
+        "past continuous structure"
+      ],
+      "responses": [
+        "**Past Continuous** shows an action that was in progress in the past.\n\nStructure: Subject + **was/were** + verb**-ing**\n\n*I **was studying** when the lights went off.*"
+      ]
+    },
+    {
+      "tag": "past_perfect",
+      "patterns": [
+        "what is past perfect",
+        "past perfect tense",
+        "explain past perfect",
+        "past perfect structure"
+      ],
+      "responses": [
+        "**Past Perfect** shows which past action happened first.\n\nStructure: Subject + **had** + past participle\n\n*The train **had left** before we reached the station.*"
+      ]
+    },
+    {
+      "tag": "future_simple",
+      "patterns": [
+        "what is future simple",
+        "future tense",
+        "future indefinite tense",
+        "explain future tense",
+        "will or going to"
+      ],
+      "responses": [
+        "**Future Simple**: Subject + **will** + base verb → *I **will call** you.*\n\n**Going to** is used for plans already made: *I **am going to** visit my uncle tomorrow.*"
+      ]
+    },
+    {
+      "tag": "subject_verb_agreement",
+      "patterns": [
+        "subject verb agreement",
+        "he go or he goes",
+        "is or are",
+        "was or were",
+        "singular verb plural verb"
+      ],
+      "responses": [
+        "**Subject–verb agreement**: a singular subject takes a singular verb, a plural subject takes a plural verb.\n\n- *He **goes**.* / *They **go**.*\n- *She **is**.* / *They **are**.*\n- *I **was**.* / *We **were**.*"
+      ]
+    },
+    {
+      "tag": "active_passive",
+      "patterns": [
+        "active and passive voice",
+        "what is passive voice",
+        "change active to passive",
+        "explain passive voice",
+        "active voice",
+        "tell me about passive voice"
+      ],
+      "responses": [
+        "**Active voice**: the subject does the action → *Ali **wrote** the letter.*\n\n**Passive voice**: the action is done to the subject → *The letter **was written** by Ali.*\n\nPassive structure: object + **be** + past participle (+ by subject)."
+      ]
+    },
+    {
+      "tag": "direct_indirect",
+      "patterns": [
+        "direct and indirect speech",
+        "reported speech",
+        "what is indirect speech",
+        "narration",
+        "change direct to indirect"
+      ],
+      "responses": [
+        "**Direct speech** gives the exact words: *He said, \"I am busy.\"*\n\n**Indirect speech** reports them: *He said that **he was** busy.*\n\nUsually the tense moves one step back (is → was, will → would)."
+      ]
+    },
+    {
+      "tag": "their_there_theyre",
+      "patterns": [
+        "their there they're",
+        "difference between their and there",
+        "their vs there",
+        "when to use their",
+        "theyre meaning"
+      ],
+      "responses": [
+        "- **their** = belonging to them → *their house*\n- **there** = a place / there is → *Put it **there**.*\n- **they're** = they are → ***They're** late.*"
+      ]
+    },
+    {
+      "tag": "your_youre",
+      "patterns": [
+        "your or you're",
+        "difference between your and you're",
+        "your vs youre",
+        "youre meaning"
+      ],
+      "responses": [
+        "- **your** = belonging to you → *your book*\n- **you're** = you are → ***You're** welcome.*"
+      ]
+    },
+    {
+      "tag": "its_its",
+      "patterns": [
+        "its or it's",
+        "difference between its and it's",
+        "its vs it's",
+        "when to use it's"
+      ],
+      "responses": [
+        "- **it's** = it is / it has → ***It's** raining.*\n- **its** = belonging to it → *The cat licked **its** paw.*"
+      ]
+    },
+    {
+      "tag": "since_for",
+      "patterns": [
+        "since or for",
+        "difference between since and for",
+        "since vs for",
+        "when to use since",
+        "when to use for"
+      ],
+      "responses": [
+        "- **for** + a period of time → *for two years, for 3 hours*\n- **since** + a starting point → *since 2020, since Monday*\n\n*I have lived here **for** five years / **since** 2021.*"
+      ]
+    },
+    {
+      "tag": "modal_verbs",
+      "patterns": [
+        "what are modal verbs",
+        "modal verbs",
+        "can could may might",
+        "explain modals",
+        "should and must"
+      ],
+      "responses": [
+        "**Modal verbs** add meaning like ability, permission or advice: *can, could, may, might, will, would, shall, should, must*.\n\nRule: modal + **base verb** → *She **can swim**.* (not *can swims*)"
+      ]
+    },
+    {
+      "tag": "punctuation",
+      "patterns": [
+        "punctuation rules",
+        "how to use comma",
+        "full stop rules",
+        "what is punctuation",
+        "use of apostrophe",
+        "question mark"
+      ],
+      "responses": [
+        "Basic **punctuation**:\n- **.** full stop at the end of a statement\n- **?** at the end of a question\n- **,** comma to separate items in a list: *pens, books and bags*\n- **'** apostrophe for possession or short forms: *Ali's bag, don't*"
+      ]
+    },
+    {
+      "tag": "singular_plural",
+      "patterns": [
+        "singular and plural",
+        "how to make plural",
+        "plural rules",
+        "plural of child",
+        "irregular plurals",
+        "how do i make plurals"
+      ],
+      "responses": [
+        "Most nouns add **-s**: *book → books*.\nWords ending in s, sh, ch, x add **-es**: *box → boxes*.\nConsonant + y → **-ies**: *city → cities*.\n\nIrregular: *child → children, man → men, mouse → mice, tooth → teeth*."
+      ]
+    },
+    {
+      "tag": "conditionals",
+      "patterns": [
+        "conditional sentences",
+        "if sentences",
+        "what are conditionals",
+        "first conditional",
+        "second conditional"
+      ],
+      "responses": [
+        "- **Zero**: If + present, present → *If you heat ice, it melts.*\n- **First**: If + present, will + verb → *If it rains, I will stay home.*\n- **Second**: If + past, would + verb → *If I had money, I would buy a car.*"
+      ]
+    },
+    {
+      "tag": "sentence_types",
+      "patterns": [
+        "types of sentences",
+        "kinds of sentences",
+        "what is a sentence",
+        "interrogative sentence",
+        "imperative sentence"
+      ],
+      "responses": [
+        "Four **kinds of sentences**:\n1. Declarative (statement): *I like tea.*\n2. Interrogative (question): *Do you like tea?*\n3. Imperative (order/request): *Close the door.*\n4. Exclamatory (strong feeling): *What a lovely day!*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {"question": "She ____ to school every day.", "options": ["go", "goes", "going", "gone"], "answer": "B", "explanation": "With he/she/it in present simple, add -s/-es: she goes."},
+    {"question": "I have lived in Lahore ____ 2019.", "options": ["for", "from", "since", "at"], "answer": "C", "explanation": "'Since' is used with a starting point in time (2019)."},
+    {"question": "Choose the correct article: ____ hour ago.", "options": ["a", "an", "the", "no article"], "answer": "B", "explanation": "The 'h' in hour is silent, so it starts with a vowel sound: an hour."},
+    {"question": "They ____ playing cricket when it started to rain.", "options": ["was", "is", "were", "are"], "answer": "C", "explanation": "Past continuous with a plural subject uses 'were'."},
+    {"question": "Which sentence is correct?", "options": ["He don't like tea.", "He doesn't likes tea.", "He doesn't like tea.", "He not like tea."], "answer": "C", "explanation": "He/she/it take 'doesn't' + base verb: He doesn't like tea."},
+    {"question": "____ going to the market tomorrow.", "options": ["Their", "There", "They're", "Theyre"], "answer": "C", "explanation": "'They're' means 'they are': They are going to the market."},
+    {"question": "The past form of 'write' is:", "options": ["writed", "wrote", "written", "writing"], "answer": "B", "explanation": "Write → wrote (past) → written (past participle)."},
+    {"question": "I ____ my homework already.", "options": ["have finished", "finished yesterday", "has finished", "finishing"], "answer": "A", "explanation": "Present perfect with 'I' = have + past participle: I have finished."},
+    {"question": "Which word is an adjective?", "options": ["quickly", "beautiful", "run", "and"], "answer": "B", "explanation": "'Beautiful' describes a noun, so it is an adjective."},
+    {"question": "The plural of 'child' is:", "options": ["childs", "childes", "children", "childrens"], "answer": "C", "explanation": "'Child' has an irregular plural: children."},
+    {"question": "Passive of 'Ali wrote a letter' is:", "options": ["A letter is written by Ali.", "A letter was written by Ali.", "A letter was wrote by Ali.", "A letter has write by Ali."], "answer": "B", "explanation": "Past simple passive = was/were + past participle: was written."},
+    {"question": "If it rains, I ____ at home.", "options": ["stay", "will stay", "would stay", "stayed"], "answer": "B", "explanation": "First conditional: If + present, will + base verb."},
+    {"question": "This book is ____ than that one.", "options": ["more better", "best", "better", "more good"], "answer": "C", "explanation": "The comparative of 'good' is 'better' (never 'more better')."},
+    {"question": "She can ____ English very well.", "options": ["speaks", "speaking", "spoke", "speak"], "answer": "D", "explanation": "After a modal verb (can) use the base verb: can speak."},
+    {"question": "The cat is cleaning ____ paw.", "options": ["it's", "its", "its'", "it"], "answer": "B", "explanation": "'Its' (no apostrophe) shows possession; 'it's' means 'it is'."},
+    {"question": "Which is a pronoun?", "options": ["Lahore", "they", "happy", "slowly"], "answer": "B", "explanation": "'They' replaces a noun, so it is a pronoun."},
+    {"question": "We will meet ____ Monday.", "options": ["in", "at", "on", "by"], "answer": "C", "explanation": "Use 'on' with days and dates."},
+    {"question": "I didn't ____ him at the party.", "options": ["saw", "see", "seen", "seeing"], "answer": "B", "explanation": "After 'didn't' use the base form: didn't see."},
+    {"question": "He said, \"I am tired.\" In indirect speech:", "options": ["He said that he is tired.", "He said that I am tired.", "He said that he was tired.", "He says he tired."], "answer": "C", "explanation": "In reported speech the tense moves back one step: am → was."},
+    {"question": "Choose the correctly punctuated sentence.", "options": ["Where are you going.", "where are you going?", "Where are you going?", "Where are you going,"], "answer": "C", "explanation": "A question starts with a capital letter and ends with a question mark."}
+  ]
+}
